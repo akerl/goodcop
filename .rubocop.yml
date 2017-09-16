@@ -1,6 +1,5 @@
-require:
-- rubocop-rspec
-
 AllCops:
   DefaultFormatter: fuubar
   DisplayCopNames: true
+Style/FrozenStringLiteralComment:
+    Enabled: false
