@@ -1,3 +1,6 @@
+require:
+- rubocop-rspec
+
 AllCops:
   DefaultFormatter: fuubar
   DisplayCopNames: true
