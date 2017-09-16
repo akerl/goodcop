@@ -1,3 +1,2 @@
-AllCops:
-  DefaultFormatter: fuubar
-  DisplayCopNames: true
+inherit_gem:
+  goodcop: .rubocop.yml
