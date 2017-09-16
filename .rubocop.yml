@@ -1,2 +1,3 @@
-Encoding:
-    Enabled: false
+AllCops:
+  DefaultFormatter: fuubar
+  DisplayCopNames: true
