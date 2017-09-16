@@ -1,10 +1,1 @@
-AllCops:
-  DefaultFormatter: fuubar
-  DisplayCopNames: true
-Style/FrozenStringLiteralComment:
-  Enabled: false
-Performance/HashEachMethods:
-  Enabled: false
-Metrics/BlockLength:
-  Exclude:
-  - 'spec/**/*'
+inherit_from: 'config/rubocop.yml'

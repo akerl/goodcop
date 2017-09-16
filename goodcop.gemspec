@@ -4,7 +4,7 @@ Gem::Specification.new do |s|
   s.date        = Time.now.strftime('%Y-%m-%d')
 
   s.summary     = 'Sane defaults for rubocop'
-  s.description = "Sane defaults for rubocop"
+  s.description = 'Sane defaults for rubocop'
   s.authors     = ['Les Aker']
   s.email       = 'me@lesaker.org'
   s.homepage    = 'https://github.com/akerl/goodcop'
