@@ -2,4 +2,6 @@ AllCops:
   DefaultFormatter: fuubar
   DisplayCopNames: true
 Style/FrozenStringLiteralComment:
-    Enabled: false
+  Enabled: false
+Performance/HashEachMethods:
+  Enabled: false
