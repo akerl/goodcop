@@ -1,6 +1,9 @@
 AllCops:
   DefaultFormatter: fuubar
   DisplayCopNames: true
+# Disable due to https://github.com/bbatsov/rubocop/pull/5230
+Style/FormatStringToken:
+  Enabled: false
 Style/FrozenStringLiteralComment:
   Enabled: false
 Performance/HashEachMethods:
