@@ -6,8 +6,6 @@ Style/FormatStringToken:
   Enabled: false
 Style/FrozenStringLiteralComment:
   Enabled: false
-Performance/HashEachMethods:
-  Enabled: false
 Metrics/BlockLength:
   Exclude:
   - 'spec/**/*'
