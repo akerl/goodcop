@@ -13,3 +13,5 @@ Naming/FileName:
   Exclude:
   - '**/Gemfile'
   - '**/Rakefile'
+Naming/UncommunicativeMethodParamName:
+  Enabled: false
