@@ -2,7 +2,7 @@ goodcop
 =========
 
 [![Gem Version](https://img.shields.io/gem/v/goodcop.svg)](https://rubygems.org/gems/goodcop)
-[![Build Status](https://img.shields.io/circleci/project/akerl/goodcop.svg)](https://circleci.com/gh/akerl/goodcop)
+[![Build Status](https://img.shields.io/travis/com/akerl/goodcop.svg)](https://travis-ci.com/akerl/goodcop)
 [![Coverage Status](https://img.shields.io/codecov/c/github/akerl/goodcop.svg)](https://codecov.io/github/akerl/goodcop)
 [![Code Quality](https://img.shields.io/codacy/b1ea0ddf27f44fd6a4ba0af4e3bf4592.svg)](https://www.codacy.com/app/akerl/goodcop)
 [![MIT Licensed](https://img.shields.io/badge/license-MIT-green.svg)](https://tldrlegal.com/license/mit-license)
