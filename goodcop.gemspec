@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'goodcop'
-  s.version     = '0.6.0'
+  s.version     = '0.7.0'
   s.date        = Time.now.strftime('%Y-%m-%d')
 
   s.summary     = 'Sane defaults for rubocop'
@@ -14,6 +14,7 @@ Gem::Specification.new do |s|
   s.test_files  = `git ls-files spec/*`.split
 
   s.add_dependency 'fuubar', '~> 2.3.0'
+  s.add_dependency 'rubocop-performance', '~> 1.1.0'
 
   s.add_development_dependency 'rubocop', '~> 0.67.2'
   s.add_development_dependency 'rake', '~> 12.3.0'
