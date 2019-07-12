@@ -17,8 +17,5 @@ Naming/FileName:
   - '**/Rakefile'
 Naming/UncommunicativeMethodParamName:
   Enabled: false
-# min/max didn't exist in 2.2.10/2.3.7. Remove this once they EOL
-Performance/UnneededSort:
-  Enabled: false
 Layout/EmptyLineAfterGuardClause:
   Enabled: false
