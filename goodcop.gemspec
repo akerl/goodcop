@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.files       = `git ls-files`.split
   s.test_files  = `git ls-files spec/*`.split
 
-  s.add_dependency 'fuubar', '~> 2.3.0'
+  s.add_dependency 'fuubar', '~> 2.4.1'
   s.add_dependency 'rubocop-performance', '~> 1.1.0'
 
   s.add_development_dependency 'rubocop', '~> 0.72.0'
