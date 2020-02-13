@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'fuubar', '~> 2.5.0'
   s.add_dependency 'rubocop-performance', '~> 1.5.0'
 
-  s.add_development_dependency 'rubocop', '~> 0.76.0'
+  s.add_development_dependency 'rubocop', '~> 0.79.0'
   s.add_development_dependency 'rake', '~> 13.0.0'
   s.add_development_dependency 'codecov', '~> 0.1.1'
   s.add_development_dependency 'rspec', '~> 3.9.0'
