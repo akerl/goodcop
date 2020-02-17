@@ -1,0 +1,39 @@
+name: Build
+on: [pull_request, push]
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: akerl/action-checkout@v2.0.0
+    - name: Submodules
+      run: git submodule update --init --recursive
+    - name: RVM version install
+      run: for i in $(cat .circle-ruby) ; do rvm install $i || exit 1 ; done
+    - name: RVM dep install
+      run: for i in $(cat .circle-ruby) ; do rvm-exec $i bundle install || exit 1 ; done
+    - name: Rake
+      run: for i in $(cat .circle-ruby) ; do rvm-exec $i bundle exec rake || exit 1 ; done
+    - name: Release
+      run: rvm-exec $(head -1 .circle-ruby) bundle exec rake release
+      if: startsWith(github.ref, 'refs/tags/')
+    - name: Notify on success
+      if: success()
+      env:
+        SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+      uses: akerl/github-action-slack-notify-build@v1.1.1
+      with:
+        channel_id: ${{ secrets.SLACK_BOT_CHANNEL }}
+        status: success
+        color: good
+    - name: Notify on failure
+      if: failure()
+      env:
+        SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+      uses: akerl/github-action-slack-notify-build@v1.1.1
+      with:
+        channel_id: ${{ secrets.SLACK_BOT_CHANNEL }}
+        status: failed
+        color: danger
+

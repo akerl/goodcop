@@ -2,10 +2,8 @@ goodcop
 =========
 
 [![Gem Version](https://img.shields.io/gem/v/goodcop.svg)](https://rubygems.org/gems/goodcop)
-[![Build Status](https://img.shields.io/travis/com/akerl/goodcop.svg)](https://travis-ci.com/akerl/goodcop)
-[![Coverage Status](https://img.shields.io/codecov/c/github/akerl/goodcop.svg)](https://codecov.io/github/akerl/goodcop)
-[![Code Quality](https://img.shields.io/codacy/b1ea0ddf27f44fd6a4ba0af4e3bf4592.svg)](https://www.codacy.com/app/akerl/goodcop)
-[![MIT Licensed](https://img.shields.io/badge/license-MIT-green.svg)](https://tldrlegal.com/license/mit-license)
+[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/akerl/goodcop/Build)](https://github.com/akerl/goodcop/actions))
+[![License](https://img.shields.io/github/license/akerl/goodcop)](https://github.com/akerl/goodcop/blob/master/LICENSE)
 
 Rubocop is useful, but its defaults are more than a bit hostile. GoodCop exists to be a calmer, more reassuring sidekick.
 
