@@ -14,10 +14,10 @@ Gem::Specification.new do |s|
   s.test_files  = `git ls-files spec/*`.split
 
   s.add_dependency 'fuubar', '~> 2.5.0'
-  s.add_dependency 'rubocop-performance', '~> 1.5.0'
+  s.add_dependency 'rubocop', '~> 1.3.0'
+  s.add_dependency 'rubocop-performance', '~> 1.8.1'
 
-  s.add_development_dependency 'rubocop', '~> 0.79.0'
-  s.add_development_dependency 'rake', '~> 13.0.0'
-  s.add_development_dependency 'codecov', '~> 0.1.1'
-  s.add_development_dependency 'rspec', '~> 3.9.0'
+  s.add_development_dependency 'rake', '~> 13.0.1'
+  s.add_development_dependency 'codecov', '~> 0.2.12'
+  s.add_development_dependency 'rspec', '~> 3.10.0'
 end
