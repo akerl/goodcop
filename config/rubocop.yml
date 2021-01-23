@@ -20,3 +20,5 @@ Naming/MethodParameterName:
   Enabled: false
 Layout/EmptyLineAfterGuardClause:
   Enabled: false
+Style/OptionalBooleanParameter:
+  Enabled: false
