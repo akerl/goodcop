@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'goodcop'
-  s.version     = '0.9.2'
+  s.version     = '0.9.3'
   s.date        = Time.now.strftime('%Y-%m-%d')
 
   s.summary     = 'Sane defaults for rubocop'
