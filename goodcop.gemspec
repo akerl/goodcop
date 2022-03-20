@@ -1,7 +1,8 @@
 Gem::Specification.new do |s|
   s.name        = 'goodcop'
-  s.version     = '0.9.4'
-  s.date        = Time.now.strftime('%Y-%m-%d')
+  s.version     = '0.9.5'
+
+  s.required_ruby_version = '>= 3.0'
 
   s.summary     = 'Sane defaults for rubocop'
   s.description = 'Sane defaults for rubocop'
@@ -18,4 +19,5 @@ Gem::Specification.new do |s|
   s.add_dependency 'rspec', '~> 3.11.0'
   s.add_dependency 'rubocop', '~> 1.26.0'
   s.add_dependency 'rubocop-performance', '~> 1.13.3'
+  s.metadata['rubygems_mfa_required'] = 'true'
 end
