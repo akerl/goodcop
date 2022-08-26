@@ -12,7 +12,6 @@ Gem::Specification.new do |s|
   s.license     = 'MIT'
 
   s.files       = `git ls-files`.split
-  s.test_files  = `git ls-files spec/*`.split
 
   s.add_dependency 'fuubar', '~> 2.5.1'
   s.add_dependency 'rake', '~> 13.0.6'
