@@ -22,3 +22,5 @@ Layout/EmptyLineAfterGuardClause:
   Enabled: false
 Style/OptionalBooleanParameter:
   Enabled: false
+Gemspec/DevelopmentDependencies:
+  EnforcedStyle: gemspec
