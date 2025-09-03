@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'goodcop'
-  s.version     = '0.9.7'
+  s.version     = '0.9.8'
 
   s.required_ruby_version = '>= 3.0'
 
