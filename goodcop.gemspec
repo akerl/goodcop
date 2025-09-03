@@ -14,9 +14,9 @@ Gem::Specification.new do |s|
   s.files       = `git ls-files`.split
 
   s.add_dependency 'fuubar', '~> 2.5.1'
-  s.add_dependency 'rake', '~> 13.0.6'
-  s.add_dependency 'rspec', '~> 3.11.0'
-  s.add_dependency 'rubocop', '~> 1.35.1'
-  s.add_dependency 'rubocop-performance', '~> 1.14.3'
+  s.add_dependency 'rake', '~> 13.3.0'
+  s.add_dependency 'rspec', '~> 3.13.1'
+  s.add_dependency 'rubocop', '~> 1.80.1'
+  s.add_dependency 'rubocop-performance', '~> 1.25.0'
   s.metadata['rubygems_mfa_required'] = 'true'
 end
